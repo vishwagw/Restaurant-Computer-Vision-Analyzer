@@ -1,0 +1,18 @@
+numpy
+pandas
+opencv-python
+Flask
+pywebview
+requests
+# Optional / heavy dependencies for real-model inference (install only if you need them):
+# ultralytics (YOLOv8) for object/food detection
+# deepface for age/gender/ethnicity analysis
+# torch and torchvision for model backends
+ultralytics; extra == "real"
+deepface; extra == "real"
+torch; extra == "real"
+torchvision; extra == "real"
+facenet-pytorch; extra == "real"
+retinaface; extra == "real"
+# Optional emotion analysis package (recommended). If not installed, a Haar-cascade fallback is used.
+fer; extra == "emotion"
